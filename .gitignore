@@ -1,0 +1,87 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.Python
+.python-version
+
+# ======================
+# Virtualenv
+# ======================
+venv/
+.env/
+.env.*
+!.env.example
+.env
+.venv
+
+# ======================
+# IDE / Editors
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+*.out
+
+# ======================
+# Databases
+# ======================
+*.sqlite
+*.sqlite3
+*.db
+
+# ======================
+# Migrations / cache
+# ======================
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ======================
+# Docker
+# ======================
+docker-compose.override.yml
+**/.dockerignore
+
+# ======================
+# Nginx / Certbot runtime
+# ======================
+certbot/
+letsencrypt/
+ssl/
+acme-challenge/
+
+# ======================
+# Runtime / temp files
+# ======================
+tmp/
+temp/
+.cache/
+
+# ======================
+# OS / misc
+# ======================
+Thumbs.db
+
+# ======================
+# Security
+# ======================
+*.pem
+*.key
+*.crt
+*.csr
